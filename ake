@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+gulp &
+(cd ../../.. && nodemon current/index.js --watch content/themes --watch content/apps --ext hbs,js,css --ignore node_modules)
